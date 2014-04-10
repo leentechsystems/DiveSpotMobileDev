@@ -34,10 +34,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
-        var networkState = navigator.network.connection.type;
-
-        alert(networkState);
-
+        //var networkState = navigator.network.connection.type;
         window.location = 'http://divespot.com.ph/index.php?do=/mobile/';
     },
     // Update DOM on a Received Event

@@ -34,12 +34,9 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         //app.receivedEvent('deviceready');
-        var networkState = navigator.connection.type;
+        var networkState = navigator.network.connection.type;
 
-        if(networkState == Connection.NONE)
-        {
-            alert('Internet Connection is required!');
-        }
+        alert(networkState);
 
         window.location = 'http://divespot.com.ph/index.php?do=/mobile/';
     },

@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="ph.com.divespot" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="ph.com.divespot" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Divespot</name>
+    <description>
+        DiveSpot helps you connect and share with the people in your life.
+    </description>
+    <author email="admin@divespot.com.ph" href="http://divespot.com.ph">
+        divespot.com.ph
+    </author>
+
     <!-- Android  -->
     <icon src="res/icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="res/icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
@@ -23,12 +30,6 @@
 	<icon src="res/icons/ios/icon-40.png" gap:platform="ios" width="40" height="40" />
 	<icon src="res/icons/ios/icon-40-2x.png" gap:platform="ios" width="80" height="80" />
 
-    <description>
-        DiveSpot helps you connect and share with the people in your life.
-    </description>
-    <author email="admin@divespot.com.ph" href="http://divespot.com.ph">
-        divespot.com.ph
-    </author>
     <content src="index.html" />
     <access origin="http://divespot.com.ph" subdomains="true" />
 </widget>

@@ -37,6 +37,6 @@
 	<icon src="res/icons/ios/icon-40-2x.png" gap:platform="ios" width="80" height="80" />
 
     <content src="index.html" />
-    <access origin="http://divespot.com.ph" subdomains="true" />
+    <access origin="*" subdomains="true" />
 
 </widget>

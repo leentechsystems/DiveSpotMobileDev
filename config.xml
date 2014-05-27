@@ -7,12 +7,6 @@
     <author email="admin@divespot.com.ph" href="http://divespot.com.ph">
         divespot.com.ph
     </author>
-
-    <!-- We'll include the Barcode plugin as an example -->
-    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
-	    <param name="APP_ID" value="403800169760952" />
-	    <param name="APP_NAME" value="Divespot.ph App" />
-	</gap:plugin>
 	
     <!-- Android  -->
     <icon src="res/icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
